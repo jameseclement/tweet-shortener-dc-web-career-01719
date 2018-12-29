@@ -38,6 +38,6 @@ end
 end
 
 def shortened_tweet_truncator(tweet)
-last = tweet.size
+if tweet.size > 140 
 tweet[141..last]= "..."
-end
+else 
