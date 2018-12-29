@@ -39,7 +39,7 @@ end
 
 def shortened_tweet_truncator(tweet)
 if tweet.size > 140 
-"#{string[0...140]}..."
+"#{tweet[0...140]}..."
 else 
   tweet
 end
